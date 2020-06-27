@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# opendartr
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+<!-- badges: end -->
+
+The goal of opendartr is to ...
+
+## Installation
+
+### github
+
+``` r
+install.packages("remotes")
+remotes::install_github("mrchypark/opendartr")
+```
+
+### cran
+## NOT YET
+
+You can install the released version of opendartr from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("opendartr")
+```
+
+## Example
+
+### corp code
+
+```{r example}
+library(opendartr)
+opdr_code
+```
+
